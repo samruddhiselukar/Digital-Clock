@@ -1,0 +1,85 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #d6d6d6;
+}
+#digital-clock {
+  position: relative;
+  margin: auto;
+  height: 20vw;
+  width: 80vw;
+  /* background: #d4d4d4; */
+}
+
+#hour,
+#minute,
+#second,
+#am-pm {
+  position: absolute;
+  height: 8vw;
+  width: 8vw;
+  background: #dbdbdb;
+  box-shadow: 3px 3px 9px #b8b8b8, -3px -3px 9px #ffffff;
+}
+
+#hours,
+#minutes,
+#seconds,
+#am_pm {
+  font-weight: 300;
+  position: absolute;
+  top: -20%;
+  left: 10%;
+  /* display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: #f8f8f8;
+  text-align: center;
+  font-size: 4vw;
+}
+#hours {
+  left: 25%;
+}
+
+#minutes,
+#seconds {
+  left: 20%;
+}
+
+#hour {
+  top: 30%;
+  left: 15%;
+}
+#minute {
+  top: 30%;
+  left: 35%;
+}
+#second {
+  top: 30%;
+  left: 55%;
+}
+#am-pm {
+  top: 30%;
+  left: 75%;
+}
+
+#colonH {
+  position: absolute;
+  top: 30%;
+  left: 29.5%;
+  margin: auto;
+}
+#colonM {
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 49.5%;
+}
+
+#colon_h {
+  position: absolute;
+  font-size: 3vw;
+}
+#colon_m {
+  position: absolute;
+  font-size: 3vw;
+}
